@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8"> 
+    <title>Mi Primer Website</title>
+    <link rel="stylesheet" href="CSS/estilos.css">
+  </head>
+
+  <body>
+        <!--En la Etiqueta Header, se ingresa la informacion de la Barra de navegacion-->
+    <header class="container-nav">
+
+        <nav class="navbar" role="navigation">
+          <a href="index.html" class="brand">Home</a>
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>     
+          </ul>
+        </nav>
+        <button class="button-menu-toggle">Menu</button>
+
+    </header>
+
+
+        <!--En la Etiqueta Main, se ingresa la informacion del Contenido Principal-->
+    <main>
+
+      <div class="container">
+        <H1>Bienvenidos a mi primer Website!</H1>
+        <section>
+           <H2>Presentacion</H2>
+           <p>
+           Soy Josmar, !y esta es mi primera pagina web! 
+           Estaoy aprendiendo desarrollo web para crear sitios 
+           web visualmente atrapantes y funcionales 
+          </p>  
+        </section>
+        <section>
+          <h2>Lo que se viene...</h2>
+          <p>A lo largo de este curso, estaré aprendiendo
+             HTML, CSS y JavaScript. Estos lenguajes me 
+             ayudarán a crear una base sólida en el 
+             desarrollo web front-end.
+            </p>
+        </section>
+      </div>
+      <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/BqFjjslBKkU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+        <video width="560" height="315" src="video/El Rey León - Hakuna Matata (Video Edit + Letra) (Latino).mp4" controls></video>
+      </div>
+
+    </main>
+
+        <!--En la Etiqueta Footer, se ingresa la informacion del Contenido del Pie de PAgina-->
+    <footer>
+      <p>Colocar informacion sobre el Desarrolladore o la Compañia</p>
+      <button onclick="showAlert()">!Haz Click en mi!</button>
+    </footer>
+
+    <script src="script.js"></script>
+
+  </body>
+</html>
